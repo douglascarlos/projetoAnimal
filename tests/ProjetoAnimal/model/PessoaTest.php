@@ -18,7 +18,7 @@ class PessoaTest extends PHPUnit_Framework_TestCase{
     }
 
     public function testPessoaFalaComBoca() {
-        return $this->assertEquals('Boca', $this->pessoa->falar());
+        return $this->assertEquals('Estou conversando', $this->pessoa->falar());
     }
     
 }
