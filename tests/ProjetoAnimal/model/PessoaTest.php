@@ -9,16 +9,16 @@ class PessoaTest extends PHPUnit_Framework_TestCase{
         $this->pessoa = new Pessoa();
     }
     
-    public function testDeveComer() {
+    public function testePessoaEstaComendoBala() {
         return $this->assertEquals('Estou comendo bala', $this->pessoa->comer());
     }
 
-    public function testDeveCorrer() {
+    public function testPessoaCorreComAsPernas() {
         return $this->assertEquals('Estou correndo com minhas pernas', $this->pessoa->correr());
     }
 
-    public function testDeveFalar() {
-        return $this->assertEquals('Estou conversando', $this->pessoa->falar());
+    public function testPessoaFalaComBoca() {
+        return $this->assertEquals('Boca', $this->pessoa->falar());
     }
     
 }

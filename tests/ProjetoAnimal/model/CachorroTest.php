@@ -1,5 +1,4 @@
 <?php
-
 use ProjetoAnimal\model\Cachorro;
 
 class CachorroTest extends PHPUnit_Framework_TestCase {
@@ -11,15 +10,15 @@ class CachorroTest extends PHPUnit_Framework_TestCase {
     }
 
 
-    public function testDeveCorrer(){
+    public function testCachorroCorrendComQuatroPatas(){
         $this->assertEquals('Estou correndo com quatro patas', $this->cachorro->correr());
     }
     
-    public function testDeveFalar(){
+    public function testCachorraNaoFaleEleLate(){
         $this->assertEquals('Estou latindo', $this->cachorro->falar());
     }
     
-    public function testDeveComer(){
+    public function testCachorroDeveComerRacao(){
         $this->assertEquals('Estou comendo ração', $this->cachorro->comer());
     }
     
