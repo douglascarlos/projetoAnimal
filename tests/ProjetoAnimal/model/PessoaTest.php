@@ -1,7 +1,4 @@
 <?php
-
-require_once __DIR__."/../../../autoload.php";
-
 use ProjetoAnimal\model\Pessoa;
 
 class PessoaTest extends PHPUnit_Framework_TestCase{
